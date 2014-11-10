@@ -10,12 +10,15 @@
 		5304FB691A0FC59F004551D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5304FB681A0FC59F004551D3 /* main.m */; };
 		5304FB6C1A0FC59F004551D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5304FB6B1A0FC59F004551D3 /* AppDelegate.m */; };
 		5304FB6F1A0FC59F004551D3 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5304FB6E1A0FC59F004551D3 /* GameScene.m */; };
-		5304FB711A0FC59F004551D3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5304FB701A0FC59F004551D3 /* GameScene.sks */; };
 		5304FB741A0FC59F004551D3 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5304FB731A0FC59F004551D3 /* GameViewController.m */; };
 		5304FB771A0FC59F004551D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5304FB751A0FC59F004551D3 /* Main.storyboard */; };
 		5304FB791A0FC59F004551D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5304FB781A0FC59F004551D3 /* Images.xcassets */; };
 		5304FB7C1A0FC59F004551D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5304FB7A1A0FC59F004551D3 /* LaunchScreen.xib */; };
 		5304FB881A0FC59F004551D3 /* CoinVortexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5304FB871A0FC59F004551D3 /* CoinVortexTests.m */; };
+		5304FB931A0FD9C4004551D3 /* Collector.m in Sources */ = {isa = PBXBuildFile; fileRef = 5304FB921A0FD9C4004551D3 /* Collector.m */; };
+		5304FB9B1A10173C004551D3 /* Coin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5304FB9A1A10173C004551D3 /* Coin.m */; };
+		5304FBA01A10183A004551D3 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5304FB9F1A10183A004551D3 /* Constants.m */; };
+		5304FBA31A10354A004551D3 /* CoinEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5304FBA21A10354A004551D3 /* CoinEmitter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 		5304FB6B1A0FC59F004551D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5304FB6D1A0FC59F004551D3 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		5304FB6E1A0FC59F004551D3 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		5304FB701A0FC59F004551D3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		5304FB721A0FC59F004551D3 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		5304FB731A0FC59F004551D3 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		5304FB761A0FC59F004551D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 		5304FB811A0FC59F004551D3 /* CoinVortexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinVortexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5304FB861A0FC59F004551D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5304FB871A0FC59F004551D3 /* CoinVortexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoinVortexTests.m; sourceTree = "<group>"; };
+		5304FB911A0FD9C4004551D3 /* Collector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Collector.h; sourceTree = "<group>"; };
+		5304FB921A0FD9C4004551D3 /* Collector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Collector.m; sourceTree = "<group>"; };
+		5304FB991A10173C004551D3 /* Coin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coin.h; sourceTree = "<group>"; };
+		5304FB9A1A10173C004551D3 /* Coin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coin.m; sourceTree = "<group>"; };
+		5304FB9E1A10183A004551D3 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		5304FB9F1A10183A004551D3 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		5304FBA11A10354A004551D3 /* CoinEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinEmitter.h; sourceTree = "<group>"; };
+		5304FBA21A10354A004551D3 /* CoinEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinEmitter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,16 +96,11 @@
 		5304FB651A0FC59F004551D3 /* CoinVortex */ = {
 			isa = PBXGroup;
 			children = (
-				5304FB6A1A0FC59F004551D3 /* AppDelegate.h */,
-				5304FB6B1A0FC59F004551D3 /* AppDelegate.m */,
-				5304FB6D1A0FC59F004551D3 /* GameScene.h */,
-				5304FB6E1A0FC59F004551D3 /* GameScene.m */,
-				5304FB701A0FC59F004551D3 /* GameScene.sks */,
-				5304FB721A0FC59F004551D3 /* GameViewController.h */,
-				5304FB731A0FC59F004551D3 /* GameViewController.m */,
-				5304FB751A0FC59F004551D3 /* Main.storyboard */,
-				5304FB781A0FC59F004551D3 /* Images.xcassets */,
-				5304FB7A1A0FC59F004551D3 /* LaunchScreen.xib */,
+				5304FB9D1A101829004551D3 /* Helpers */,
+				5304FB981A101680004551D3 /* View Controllers */,
+				5304FB971A101657004551D3 /* App Delegate */,
+				5304FB961A101649004551D3 /* Scenes */,
+				5304FB941A101610004551D3 /* Nodes */,
 				5304FB661A0FC59F004551D3 /* Supporting Files */,
 			);
 			path = CoinVortex;
@@ -104,6 +109,9 @@
 		5304FB661A0FC59F004551D3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5304FB751A0FC59F004551D3 /* Main.storyboard */,
+				5304FB781A0FC59F004551D3 /* Images.xcassets */,
+				5304FB7A1A0FC59F004551D3 /* LaunchScreen.xib */,
 				5304FB671A0FC59F004551D3 /* Info.plist */,
 				5304FB681A0FC59F004551D3 /* main.m */,
 			);
@@ -125,6 +133,55 @@
 				5304FB861A0FC59F004551D3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5304FB941A101610004551D3 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				5304FB911A0FD9C4004551D3 /* Collector.h */,
+				5304FB921A0FD9C4004551D3 /* Collector.m */,
+				5304FB991A10173C004551D3 /* Coin.h */,
+				5304FB9A1A10173C004551D3 /* Coin.m */,
+				5304FBA11A10354A004551D3 /* CoinEmitter.h */,
+				5304FBA21A10354A004551D3 /* CoinEmitter.m */,
+			);
+			name = Nodes;
+			sourceTree = "<group>";
+		};
+		5304FB961A101649004551D3 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5304FB6D1A0FC59F004551D3 /* GameScene.h */,
+				5304FB6E1A0FC59F004551D3 /* GameScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		5304FB971A101657004551D3 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				5304FB6A1A0FC59F004551D3 /* AppDelegate.h */,
+				5304FB6B1A0FC59F004551D3 /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		5304FB981A101680004551D3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5304FB721A0FC59F004551D3 /* GameViewController.h */,
+				5304FB731A0FC59F004551D3 /* GameViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5304FB9D1A101829004551D3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5304FB9E1A10183A004551D3 /* Constants.h */,
+				5304FB9F1A10183A004551D3 /* Constants.m */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,7 +266,6 @@
 			files = (
 				5304FB7C1A0FC59F004551D3 /* LaunchScreen.xib in Resources */,
 				5304FB791A0FC59F004551D3 /* Images.xcassets in Resources */,
-				5304FB711A0FC59F004551D3 /* GameScene.sks in Resources */,
 				5304FB771A0FC59F004551D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,8 +285,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5304FB741A0FC59F004551D3 /* GameViewController.m in Sources */,
+				5304FB931A0FD9C4004551D3 /* Collector.m in Sources */,
+				5304FB9B1A10173C004551D3 /* Coin.m in Sources */,
+				5304FBA31A10354A004551D3 /* CoinEmitter.m in Sources */,
 				5304FB6C1A0FC59F004551D3 /* AppDelegate.m in Sources */,
 				5304FB6F1A0FC59F004551D3 /* GameScene.m in Sources */,
+				5304FBA01A10183A004551D3 /* Constants.m in Sources */,
 				5304FB691A0FC59F004551D3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,9 +415,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CoinVortex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -365,9 +429,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CoinVortex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
